@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Aloud & Speech Synchronizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="read-aloud">
+            <h2>Read Aloud</h2>
+            <p id="paragraph">
+                This is the paragraph you want to read aloud. Replace it with your desired text.
+            <button id="readAloudBtn">Read Aloud</button>
+            <button id="stopReadingBtn">Stop Reading</button>
+        </div>
+
+        <div class="speech-synchronizer">
+            <h2>Speech Synchronizer</h2>
+            <button id="startRecordingBtn">Start Recording</button>
+            <button id="stopRecordingBtn" disabled>Stop Recording</button>
+            <div id="output"></div>
+        </div>
+    </div>
+
+    <script src="read-aloud.js"></script>
+    <script src="speech-synchronizer.js"></script>
+</body>
+</html>
